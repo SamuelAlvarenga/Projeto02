@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .page {
@@ -7,7 +8,7 @@ body {
   margin: 65px auto 0;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,4 +21,70 @@ ul {
   gap: 48px;
   margin: 0px;
   padding: 0px;
+}
+
+ul li a {
+  color: #1f1534;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a {
+  color: #1f1534;
+  text-decoration: none;
+}
+
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+  font-weight: 400;
+  margin: 40px 0px;
+  width: 490px;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  font-weight: 400;
+  margin: 40px 0px;
+}
+
+button {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+footer a {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: bold;
 }

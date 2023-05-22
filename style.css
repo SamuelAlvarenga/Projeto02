@@ -33,11 +33,15 @@ ul {
 ul li a {
   color: #1f1534;
   text-decoration: none;
+  opacity: 0.5;
+  transition: 0.3s;
 }
 
 ul li a:hover {
   font-weight: bold;
   text-decoration: none;
+  opacity: 1;
+  transition: 0.3s;
 }
 
 a {
